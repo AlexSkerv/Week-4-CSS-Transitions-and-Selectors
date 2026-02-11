@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 0;
@@ -26,7 +25,6 @@ h1 {
     padding: 20px;
 }
 
-
 #menuItems {
     position: fixed;
     left: 0;
@@ -50,16 +48,13 @@ h1 {
     transition: background-color 0.3s;
 }
 
-
 #menuItems button:hover {
     background-color: #0066ff;
 }
 
-
 #recentArticles {
     position: relative;
 }
-
 
 #jumpMenu {
     display: none;
@@ -98,13 +93,12 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
     padding: 20px;
-    max-width: 1400px;
+    margin: 0 auto;
 }
 
 article {
-    border: 1px solid #ddd;
     padding: 15px;
-    background-color: #f9f9f9;
+    background-color: transparent;
     color: #ccc;
     transition: all 2s;
 }
@@ -162,23 +156,21 @@ footer a {
 }
 
 #thanks {
-    text-align: center;
-    padding: 30px;
-    font-size: 24px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #87ceeb;
+    padding: 15px 30px;
+    border: 2px solid #000;
 }
 
 #thanks a {
-    color: #0066cc;
-    text-decoration: none;
-    padding: 10px 20px;
-    border: 2px solid #0066cc;
-    display: inline-block;
-    transition: background-color 0.3s, color 0.3s;
+    color: #0000ff;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 #thanks a:hover {
-    background-color: #0066cc;
-    color: white;
+    color: #0066cc;
 }
-
-
